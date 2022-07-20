@@ -16,4 +16,4 @@ RUN add-apt-repository \
        stable"
 RUN apt-get update && apt-get install -y docker-ce-cli
 
-# USER jenkins
+USER jenkins
