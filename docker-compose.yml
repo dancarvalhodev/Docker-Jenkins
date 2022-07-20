@@ -1,7 +1,7 @@
 version: "2"
 services:
   jenkins:
-    image: jenkinsci/blueocean
+    image: jenkins/jenkins:lts-jdk11
     user: root
     ports:
       - "8081:8080"
